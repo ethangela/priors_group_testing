@@ -3,18 +3,20 @@
 This repository provides code to reproduce results of the paper: [Model-Based and Graph-Based Priors for Group Testing].
 
 ---
-### Requirements: 
+### Requirements
 1. Python 3.7
 2. gurobipy 10.0.0
 
 ---
 ### Reproducing quantitative results
 1. Main experiment scripts:
-     - ```$ ./mnist/train.sh```
-     - ```$ python main.py```  
+     - ```python main.py```  
 2. Sensitivity to graph mismatch:
-     - ```--noise-std``` the variance (square of standard deviation) of noise
-     - ```$ python main.py```  
+     - ```python varying_graph_test.py```  
 3. Sensitivity to parameter mismatch:  
-     - ```$ python main.py```  
+     - ```python varying_lambda_test.py```  
+     
+---
+### Additional info
+We provide two graph examples (grid and block) produced by Gibbs sampling. Feel free to create your own graph samples in replace of them. 
 
