@@ -1,6 +1,6 @@
 # Ising model based group testing 
  
-This repository provides code to reproduce results of the paper: [Model-Based and Graph-Based Priors for Group Testing].
+This repository provides code to reproduce results of the paper: Model-Based and Graph-Based Priors for Group Testing.
 
 ---
 ### Requirements
