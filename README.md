@@ -15,6 +15,10 @@ This repository provides code to reproduce results of the paper: Model-Based and
      - ```python varying_graph_test.py```  
 3. Sensitivity to parameter mismatch:  
      - ```python varying_lambda_test.py```  
+* Facebook network loader:  
+     - ```python facebook_network_loader.py```  
+* Gibbs sampling:  
+     - ```python gibbs_sampling.py```  
      
 ---
 ### Additional info
